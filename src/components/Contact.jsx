@@ -54,14 +54,14 @@ const Contact = () => {
     {
       icon: '📧',
       label: 'Email',
-      value: 'adarsh.pandey@example.com',
-      link: 'mailto:adarsh.pandey@example.com'
+      value: 'adarsh.pandey@gmail.com',
+      link: 'mailto:adarsh.pandey@gmail.com'
     },
     {
       icon: '📱',
       label: 'Phone',
-      value: '+977 98XXXXXXXX',
-      link: 'tel:+97798XXXXXXXX'
+      value: '+977 9868821778',
+      link: 'tel:+977 9868821778'
     },
     {
       icon: '📍',

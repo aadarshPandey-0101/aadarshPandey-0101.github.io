@@ -68,7 +68,7 @@ const Hero = () => {
             <div className={styles.imageContainer}>
               <div className={styles.imageGlow}></div>
               <img 
-                src="https://i.pravatar.cc/300?img=12" 
+                src="/profile-image.jpg" 
                 alt="Adarsh Pandey - Frontend Developer and UI/UX Enthusiast"
                 className={styles.profileImage}
                 width="300"

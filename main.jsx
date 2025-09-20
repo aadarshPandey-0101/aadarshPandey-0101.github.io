@@ -1,7 +1,6 @@
 import React, { StrictMode } from 'react'
 import { createRoot } from 'react-dom/client'
 import Example from './src/App.portfolio'
-import KombaiWrapper from './KombaiWrapper'
 import './src/index.css'
 
 // Simple Error Boundary Component
@@ -58,10 +57,7 @@ class ErrorBoundary extends React.Component {
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
-    <ErrorBoundary>
-      <KombaiWrapper>
         <Example />
-      </KombaiWrapper>
-    </ErrorBoundary>
+      
   </StrictMode>,
 )
